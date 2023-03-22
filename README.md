@@ -1,9 +1,9 @@
 # MINIMAL WEATHER
 A clean portal to see weather of a city
 
-###You can also Search your city of choice 
+#You can also Search your city of choice 
 
-##Screenshots -
+Screenshots -
 
 ![Screenshot (72)](https://user-images.githubusercontent.com/100792085/226985536-89214b93-3439-44b9-8848-bcfbfd3547ec.png)
 
