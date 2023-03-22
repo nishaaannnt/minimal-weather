@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherBoi</title>
+    <link rel="stylesheet" href="static/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+      <div class="container">
+        <!-- NAVBAR -->
+    <header>
+      <div class="nav">
+        <h2>WeatherBoi</h2>
+        <ul>
+          <li><button id="aboutButt">About</button></li>
+        </ul>
+      </div>
+    </header>
+    <!-- MAINCONTENT -->
+      <div class="card" id="card">
+        <div class="search">
+          <input type="text" placeholder="Search " id="city" class="search-bar" />
+          <button type="submit" id="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <h2 id="area">Getting...</h2>
+        <h1 id="temp">Please wait...</h1>
+        <p >Max: <span id="state"></span></p>
+        <p >Humidity: <span id="humidity"></span></p>
+        <p>WindSpeed: <span id="windspeed"></span></p>
+      </div>
+    <section id="about" class="hidden">
+        <div class="about_content">
+            <h2>Hello My name is Nishant Dixit </h2>
+            <p>This Project is made  to learn and Understand JavaScript more Properly</p>
+           <p>Also Make sure the city entered exists and the first word is capital !</p> 
+            <ul class="socials">
+                <li><a href="https://github.com/nishaaannnt">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/nishantdixitt/">LinkedIn</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Instagram</a></li>
+            </ul>
+        </div>
+    </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  
+</html>

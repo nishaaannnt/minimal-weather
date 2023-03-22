@@ -1,0 +1,143 @@
+@import url('https://fonts.cdnfonts.com/css/azonix');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Azonix', sans-serif;
+    
+}
+body{
+    
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    height: 100vh;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+    align-items: center;
+    padding: 20px 40px;
+}
+.nav h2{
+    font-size: 2rem;
+    transition: 0.3s;
+}
+.nav h2:hover{
+    color:#000;
+}
+.nav ul li{
+    list-style: none;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+.search button{
+    border-radius: 50%;
+    margin: 5px;
+    height: 2.8em;
+    width: 2.8em;
+    border: none;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    transition: 0.3s;
+}
+.search button:hover{
+    cursor: pointer;
+    background-color: #7c7c7c;
+}
+#temp{
+    margin: 20px 0px;
+    font-size: 2.5rem;
+}
+#city{
+    margin: 10px 0px;
+}
+.card p{
+    margin: 5px 0px;
+}
+.search input{
+    width: 90%;
+    height: 1.8em;
+    padding: 1.1em;
+    border-radius: 30px;
+    border: none;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+/* Search */
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 460px;
+    min-height: 300px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 40px;
+    background-color: #000000d0;
+    border-radius: 30px;
+    color: #fff;
+}
+.hidden{
+    display: none;
+}
+#aboutButt{
+    background: none;
+    border: 0px;
+    text-decoration: none;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 1.2rem;
+}
+#aboutButt:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.about_content{
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.about_content h2{
+    margin: 40px 0px;
+    font-size: 2.5rem;
+}
+.about_content p{
+    font-size:1.3rem;
+    margin-bottom: 20px;
+}
+.socials{
+    margin: 70px 0px;
+    display: flex;
+    list-style: none;
+    
+}
+.socials li a{
+    margin: 0px 30px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+.socials li a:hover{
+    color: #000;
+    cursor: pointer;
+}
